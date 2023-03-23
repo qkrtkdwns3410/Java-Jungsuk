@@ -1,3 +1,5 @@
+import cp6.variableKing.MyMath;
+
 /**
  * packageName    :
  * fileName       : ${NAME}
@@ -11,6 +13,8 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MyMath mm = new MyMath();
+        long value = mm.add(1L, 2L);
+        System.out.println("value = " + value);
     }
 }
