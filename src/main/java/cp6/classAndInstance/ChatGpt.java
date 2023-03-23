@@ -23,7 +23,7 @@ public class ChatGpt {
     static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        String apiKey = "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"; // 여기에 실제 API 키를 사용하세요
+        String apiKey = "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"; // 여기에 실제 API 키를 사용하세요 -> 깃허브에 올라가면 거시기함
         System.out.print("무슨 단어를 찾는지 검색 : ");
         String searchText = br.readLine();
 
